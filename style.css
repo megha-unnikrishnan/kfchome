@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    /* cursor: pointer; */
+}
+.vertical{
+    border-left: 1px solid lightgray;
+    height: 27px;
+    left: 50%;
+    padding-right:20px;
+}
+.first-div{
+    display: flex;
+    margin: 68px 112px;
+    float: left;
+}
+.second-div{
+    padding-right: 130px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width:50%;
+}
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo-div span{
+    padding: 0px 20px;
+}
+.sec-span{
+    padding: 19px;
+}
+.banner{
+    background:#202124;
+    height: 68px;
+}
+.para{
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto 15px auto auto;
+}
+.main-nav{
+    display:flex;
+}
+.logo-div{
+    width:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left:8%;
+}
+.nav-right{
+
+    padding:0 20px;
+    font-weight: 700;
+}
+.para-bn{
+    background: #000;
+    color: #fff;
+    padding: 13px 46px;
+    border-radius: 31px;
+    font-size: .9rem;
+}
+button:hover{
+    background: #e4002b;
+}
+.bn-location{
+background: #000;
+color: #fff;
+padding: 6px 11px;
+border-radius: 31px
+}
+/* 
+#slider{
+    overflow: hidden;
+} */
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    right: 0;
+    animation: 20s slider forwards;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0% {
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: 0%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+}
